@@ -1,0 +1,711 @@
+2021-11-21 11:48:56.085 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:48:56.128 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='lang'
+2021-11-21 11:48:56.131 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:48:56.133 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:48:56.134 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:48:56.137 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:1300]
+2021-11-21 11:48:56.139 ***** ERROR ***** []    #3 setupLocale called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:131]
+2021-11-21 11:48:56.141 ***** ERROR ***** []    #4 include_once called at [C:\xampp\htdocs\projeqtor\index.php:6]
+2021-11-21 11:48:57.238 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:48:57.240 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:48:57.242 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:48:57.244 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:48:57.246 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:48:57.248 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:48:57.250 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:48:57.252 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:2217]
+2021-11-21 11:48:57.254 ***** ERROR ***** []    #5 getTheme called at [C:\xampp\htdocs\projeqtor\index.php:7]
+2021-11-21 11:48:57.257 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:48:57.259 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:48:57.262 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:48:57.265 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:48:57.268 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:48:57.270 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:48:57.272 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:48:57.275 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\index.php:11]
+2021-11-21 11:48:57.282 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:48:57.284 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGuiThemeColor'
+2021-11-21 11:48:57.287 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:48:57.289 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:48:57.291 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:48:57.293 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\index.php:11]
+2021-11-21 11:48:57.323 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:48:57.327 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:48:57.329 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:48:57.331 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:48:57.334 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:48:57.336 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:48:57.338 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:48:57.340 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\index.php:13]
+2021-11-21 11:48:57.348 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:48:57.350 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:48:57.352 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:48:57.353 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:48:57.355 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:48:57.359 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:48:57.361 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:48:57.365 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\index.php:71]
+2021-11-21 11:48:57.375 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:48:57.377 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:48:57.379 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:48:57.381 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:48:57.383 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:48:57.385 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:48:57.387 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:48:57.389 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\index.php:78]
+2021-11-21 11:48:57.394 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:48:57.396 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:48:57.398 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:48:57.400 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:48:57.402 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:48:57.406 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:48:57.409 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:48:57.411 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\index.php:80]
+2021-11-21 11:48:57.416 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:48:57.418 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:48:57.420 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:48:57.422 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:48:57.424 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:48:57.426 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:48:57.429 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:48:57.431 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:2217]
+2021-11-21 11:48:57.434 ***** ERROR ***** []    #5 getTheme called at [C:\xampp\htdocs\projeqtor\index.php:81]
+2021-11-21 11:48:57.467 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:48:57.469 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGuiThemeColor'
+2021-11-21 11:48:57.471 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:48:57.474 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:48:57.475 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:48:57.477 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\index.php:85]
+2021-11-21 11:48:57.489 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:48:57.492 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGuiThemeColorBis'
+2021-11-21 11:48:57.494 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:48:57.495 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:48:57.498 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:48:57.499 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\index.php:85]
+2021-11-21 11:48:57.503 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:48:57.507 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:48:57.508 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:48:57.510 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:48:57.512 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:48:57.514 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:48:57.516 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:48:57.518 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\index.php:99]
+2021-11-21 11:48:57.537 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:48:57.540 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:48:57.542 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:48:57.544 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:48:57.548 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:48:57.551 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:48:57.553 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:48:57.556 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\index.php:100]
+2021-11-21 11:48:57.562 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:48:57.564 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:48:57.567 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:48:57.569 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:48:57.571 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:48:57.574 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:48:57.577 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:48:57.579 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\index.php:102]
+2021-11-21 11:48:57.585 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:48:57.587 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:48:57.589 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:48:57.591 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:48:57.593 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:48:57.595 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:48:57.597 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:48:57.599 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\index.php:106]
+2021-11-21 11:49:00.739 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:00.745 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='lang'
+2021-11-21 11:49:00.747 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:00.748 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:00.750 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:00.753 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:1300]
+2021-11-21 11:49:00.759 ***** ERROR ***** []    #3 setupLocale called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:131]
+2021-11-21 11:49:00.761 ***** ERROR ***** []    #4 include_once called at [C:\xampp\htdocs\projeqtor\view\index.php:5]
+2021-11-21 11:49:00.936 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:00.939 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:00.942 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:00.945 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:00.948 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:00.950 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:00.952 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:00.954 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:2217]
+2021-11-21 11:49:00.956 ***** ERROR ***** []    #5 getTheme called at [C:\xampp\htdocs\projeqtor\view\index.php:6]
+2021-11-21 11:49:00.970 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:00.972 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:00.974 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:00.976 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:00.978 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:00.980 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:00.983 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:00.985 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\index.php:7]
+2021-11-21 11:49:01.010 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:01.012 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:01.014 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:01.016 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:01.018 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:01.020 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:01.023 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:01.025 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\index.php:8]
+2021-11-21 11:49:01.038 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:01.040 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:01.043 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:01.045 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:01.047 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:01.049 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:01.050 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:01.052 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\index.php:66]
+2021-11-21 11:49:01.202 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:01.204 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:01.206 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:01.208 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:01.210 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:01.212 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:01.214 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:01.216 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\index.php:87]
+2021-11-21 11:49:01.232 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:01.235 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:01.236 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:01.238 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:01.241 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:01.244 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:01.246 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:01.248 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\index.php:88]
+2021-11-21 11:49:01.252 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:01.254 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:01.256 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:01.258 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:01.259 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:01.263 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:01.266 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:01.269 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\index.php:90]
+2021-11-21 11:49:01.274 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:01.276 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:01.278 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:01.279 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:01.284 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:01.286 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:01.288 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:01.290 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\index.php:93]
+2021-11-21 11:49:06.937 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:06.942 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='lang'
+2021-11-21 11:49:06.944 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:06.946 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:06.948 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:06.950 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:1300]
+2021-11-21 11:49:06.952 ***** ERROR ***** []    #3 setupLocale called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:131]
+2021-11-21 11:49:06.957 ***** ERROR ***** []    #4 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:11.884 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:11.886 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:11.890 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:11.893 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:11.895 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:11.897 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:11.899 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:11.901 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:79]
+2021-11-21 11:49:11.904 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:11.906 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:11.925 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:11.927 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:11.929 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:11.931 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:11.933 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:11.935 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:11.937 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:11.939 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:100]
+2021-11-21 11:49:11.941 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:11.943 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.040 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.042 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.044 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.045 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.047 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.050 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.053 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.055 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:2217]
+2021-11-21 11:49:12.057 ***** ERROR ***** []    #5 getTheme called at [C:\xampp\htdocs\projeqtor\view\login.php:136]
+2021-11-21 11:49:12.059 ***** ERROR ***** []    #6 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.061 ***** ERROR ***** []    #7 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.078 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.080 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGuiThemeColor'
+2021-11-21 11:49:12.082 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.084 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.086 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.088 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\view\login.php:137]
+2021-11-21 11:49:12.090 ***** ERROR ***** []    #3 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.092 ***** ERROR ***** []    #4 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.123 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.125 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.127 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.130 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.132 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.134 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.137 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.139 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:198]
+2021-11-21 11:49:12.141 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.143 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.154 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.156 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGuiThemeColor'
+2021-11-21 11:49:12.158 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.160 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.166 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.171 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\view\login.php:199]
+2021-11-21 11:49:12.173 ***** ERROR ***** []    #3 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.179 ***** ERROR ***** []    #4 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.187 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.190 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.192 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.194 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.196 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.198 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.200 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.202 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:2217]
+2021-11-21 11:49:12.204 ***** ERROR ***** []    #5 getTheme called at [C:\xampp\htdocs\projeqtor\view\login.php:204]
+2021-11-21 11:49:12.206 ***** ERROR ***** []    #6 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.208 ***** ERROR ***** []    #7 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.233 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.235 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.237 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.239 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.241 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.243 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.245 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.247 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:204]
+2021-11-21 11:49:12.249 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.251 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.256 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.259 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.262 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.264 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.266 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.269 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.272 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.274 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:218]
+2021-11-21 11:49:12.276 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.279 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.299 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.301 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.303 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.305 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.307 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.310 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.312 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.314 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:228]
+2021-11-21 11:49:12.316 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.318 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.346 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.349 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.351 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.353 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.356 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.358 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.360 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.362 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:229]
+2021-11-21 11:49:12.364 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.366 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.375 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.377 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.381 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.391 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.397 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.399 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.402 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.403 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:265]
+2021-11-21 11:49:12.405 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.407 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.414 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.417 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.419 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.420 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.422 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.424 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.426 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.428 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:267]
+2021-11-21 11:49:12.431 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.433 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.438 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.439 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.441 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.443 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.445 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.447 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.450 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.452 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:269]
+2021-11-21 11:49:12.455 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.461 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.465 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.467 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.470 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.472 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.474 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.476 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.479 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.481 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:271]
+2021-11-21 11:49:12.483 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.484 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.488 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.491 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.493 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.496 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.498 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.499 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.500 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.502 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:274]
+2021-11-21 11:49:12.503 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.504 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.513 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.515 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.517 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.519 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.521 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.523 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.525 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.527 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:278]
+2021-11-21 11:49:12.530 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.532 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.536 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.537 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.539 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.541 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.543 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.545 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.546 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.549 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:285]
+2021-11-21 11:49:12.552 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.554 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.560 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.561 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.563 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.564 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.565 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.567 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.572 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.574 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:323]
+2021-11-21 11:49:12.577 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.579 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.583 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.585 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.586 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.589 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.591 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.592 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.593 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.594 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:324]
+2021-11-21 11:49:12.596 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.597 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.602 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.604 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.606 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.609 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.611 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.613 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.615 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.616 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:325]
+2021-11-21 11:49:12.618 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.620 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.625 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.627 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.629 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.631 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.634 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.637 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.639 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.643 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:326]
+2021-11-21 11:49:12.646 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.649 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.656 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.658 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.660 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.663 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.672 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.676 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.679 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.681 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:329]
+2021-11-21 11:49:12.683 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.685 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.696 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.698 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.700 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.702 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.704 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.706 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.708 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.710 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:339]
+2021-11-21 11:49:12.712 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.714 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.754 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.756 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.758 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.760 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.762 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.764 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.767 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.770 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:340]
+2021-11-21 11:49:12.818 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.842 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.903 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.905 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.909 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.912 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.915 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.918 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.922 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.924 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:341]
+2021-11-21 11:49:12.926 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.929 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:12.966 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:12.969 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:12.971 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:12.975 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:12.979 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:12.984 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:12.986 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:12.988 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:343]
+2021-11-21 11:49:12.990 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:12.993 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:13.053 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:13.055 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:13.057 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:13.059 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:13.061 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:13.063 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:13.065 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:13.068 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:355]
+2021-11-21 11:49:13.071 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:13.073 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:13.131 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:13.220 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:13.222 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:13.225 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:13.235 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:13.238 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:13.240 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:13.242 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:358]
+2021-11-21 11:49:13.244 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:13.246 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:13.324 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:13.328 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:13.330 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:13.333 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:13.335 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:13.337 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:13.339 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:13.341 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:363]
+2021-11-21 11:49:13.343 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:13.345 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:13.395 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:13.398 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:13.400 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:13.401 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:13.403 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:13.405 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:13.408 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:13.410 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:385]
+2021-11-21 11:49:13.412 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:13.414 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:13.455 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:13.458 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:13.460 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:13.462 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:13.464 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:13.467 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:13.469 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:13.472 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\view\login.php:409]
+2021-11-21 11:49:13.475 ***** ERROR ***** []    #5 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:13.477 ***** ERROR ***** []    #6 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:14.908 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.module' doesn't exist
+2021-11-21 11:49:14.910 ***** ERROR ***** []    For query : select * from module where 1=1 order by module.sortOrder
+2021-11-21 11:49:14.913 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:14.916 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:14.918 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Module.php:193]
+2021-11-21 11:49:14.920 ***** ERROR ***** []    #2 Module->initializeModuleList called at [C:\xampp\htdocs\projeqtor\model\Module.php:119]
+2021-11-21 11:49:14.922 ***** ERROR ***** []    #3 Module->isModuleActive called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5402]
+2021-11-21 11:49:14.923 ***** ERROR ***** []    #4 isLeavesSystemActiv called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5014]
+2021-11-21 11:49:14.926 ***** ERROR ***** []    #5 formatIcon called at [C:\xampp\htdocs\projeqtor\view\login.php:446]
+2021-11-21 11:49:14.929 ***** ERROR ***** []    #6 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:14.931 ***** ERROR ***** []    #7 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:14.937 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:14.939 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:14.941 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:14.943 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:14.951 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:14.953 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:14.955 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:14.960 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5034]
+2021-11-21 11:49:14.963 ***** ERROR ***** []    #5 formatIcon called at [C:\xampp\htdocs\projeqtor\view\login.php:446]
+2021-11-21 11:49:14.966 ***** ERROR ***** []    #6 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:14.970 ***** ERROR ***** []    #7 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:14.976 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:14.978 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='newGui'
+2021-11-21 11:49:14.980 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:14.982 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:14.984 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:14.987 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5679]
+2021-11-21 11:49:14.991 ***** ERROR ***** []    #3 getGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5690]
+2021-11-21 11:49:14.993 ***** ERROR ***** []    #4 isNewGui called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:5034]
+2021-11-21 11:49:14.994 ***** ERROR ***** []    #5 formatIcon called at [C:\xampp\htdocs\projeqtor\view\login.php:470]
+2021-11-21 11:49:14.997 ***** ERROR ***** []    #6 include called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:309]
+2021-11-21 11:49:14.999 ***** ERROR ***** []    #7 require_once called at [C:\xampp\htdocs\projeqtor\view\main.php:38]
+2021-11-21 11:49:27.033 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:27.037 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='lang'
+2021-11-21 11:49:27.039 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:27.044 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:27.046 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:27.047 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:1300]
+2021-11-21 11:49:27.049 ***** ERROR ***** []    #3 setupLocale called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:131]
+2021-11-21 11:49:27.051 ***** ERROR ***** []    #4 require_once called at [C:\xampp\htdocs\projeqtor\tool\saveDataToSession.php:30]
+2021-11-21 11:49:27.792 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:27.798 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='lang'
+2021-11-21 11:49:27.800 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:27.802 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:27.804 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:27.806 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:1300]
+2021-11-21 11:49:27.808 ***** ERROR ***** []    #3 setupLocale called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:131]
+2021-11-21 11:49:27.810 ***** ERROR ***** []    #4 require_once called at [C:\xampp\htdocs\projeqtor\tool\saveDataToSession.php:30]
+2021-11-21 11:49:28.147 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:28.153 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='lang'
+2021-11-21 11:49:28.155 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:28.157 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:28.159 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:28.161 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:1300]
+2021-11-21 11:49:28.163 ***** ERROR ***** []    #3 setupLocale called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:131]
+2021-11-21 11:49:28.165 ***** ERROR ***** []    #4 require_once called at [C:\xampp\htdocs\projeqtor\tool\saveDataToSession.php:30]
+2021-11-21 11:49:28.489 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:28.493 ***** ERROR ***** []    For query : select * from parameter where  idUser is null and idProject is null and parameterCode='lang'
+2021-11-21 11:49:28.495 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:28.497 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:28.500 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1457]
+2021-11-21 11:49:28.502 ***** ERROR ***** []    #2 Parameter->getUserParameter called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:1300]
+2021-11-21 11:49:28.504 ***** ERROR ***** []    #3 setupLocale called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:131]
+2021-11-21 11:49:28.505 ***** ERROR ***** []    #4 require_once called at [C:\xampp\htdocs\projeqtor\tool\saveDataToSession.php:30]
+2021-11-21 11:49:28.564 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:28.566 ***** ERROR ***** []    For query : select * from parameter where parameter.idUser is null and parameter.parameterCode='theme'
+2021-11-21 11:49:28.567 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:28.569 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:28.570 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:3130]
+2021-11-21 11:49:28.571 ***** ERROR ***** []    #2 SqlElement->getSingleSqlElementFromCriteria called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1474]
+2021-11-21 11:49:28.573 ***** ERROR ***** []    #3 Parameter->storeUserParameter called at [C:\xampp\htdocs\projeqtor\tool\saveDataToSession.php:88]
+2021-11-21 11:49:29.247 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.status' doesn't exist
+2021-11-21 11:49:29.250 ***** ERROR ***** []    For query : select id as id, name as name from status where (idle=0 ) order by status.sortOrder, status.name
+2021-11-21 11:49:29.252 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:29.254 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlList.php:146]
+2021-11-21 11:49:29.256 ***** ERROR ***** []    #1 SqlList->fetchList called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlList.php:63]
+2021-11-21 11:49:29.257 ***** ERROR ***** []    #2 SqlList->getList called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:8235]
+2021-11-21 11:49:29.259 ***** ERROR ***** []    #3 SqlElement->getFirstStatus called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:7539]
+2021-11-21 11:49:29.261 ***** ERROR ***** []    #4 SqlElement->getExtraRequiredFields called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:4754]
+2021-11-21 11:49:29.263 ***** ERROR ***** []    #5 SqlElement->control called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:2334]
+2021-11-21 11:49:29.265 ***** ERROR ***** []    #6 Parameter->control called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:1179]
+2021-11-21 11:49:29.267 ***** ERROR ***** []    #7 SqlElement->saveSqlElement called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:820]
+2021-11-21 11:49:29.269 ***** ERROR ***** []    #8 SqlElement->save called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1481]
+2021-11-21 11:49:29.270 ***** ERROR ***** []    #9 Parameter->storeUserParameter called at [C:\xampp\htdocs\projeqtor\tool\saveDataToSession.php:88]
+2021-11-21 11:49:29.425 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.extrarequiredfield' doesn't exist
+2021-11-21 11:49:29.426 ***** ERROR ***** []    For query : select * from extrarequiredfield
+2021-11-21 11:49:29.428 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:29.429 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:29.431 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:7734]
+2021-11-21 11:49:29.432 ***** ERROR ***** []    #2 SqlElement->getExtraRequiredFieldsFullList called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:7608]
+2021-11-21 11:49:29.433 ***** ERROR ***** []    #3 SqlElement->getExtraRequiredFields called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:4754]
+2021-11-21 11:49:29.434 ***** ERROR ***** []    #4 SqlElement->control called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:2334]
+2021-11-21 11:49:29.436 ***** ERROR ***** []    #5 Parameter->control called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:1179]
+2021-11-21 11:49:29.437 ***** ERROR ***** []    #6 SqlElement->saveSqlElement called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:820]
+2021-11-21 11:49:29.438 ***** ERROR ***** []    #7 SqlElement->save called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1481]
+2021-11-21 11:49:29.440 ***** ERROR ***** []    #8 Parameter->storeUserParameter called at [C:\xampp\htdocs\projeqtor\tool\saveDataToSession.php:88]
+2021-11-21 11:49:29.693 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.extrahiddenfield' doesn't exist
+2021-11-21 11:49:29.695 ***** ERROR ***** []    For query : select * from extrahiddenfield
+2021-11-21 11:49:29.696 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:29.698 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:29.700 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:7767]
+2021-11-21 11:49:29.702 ***** ERROR ***** []    #2 SqlElement->getExtraHiddenFieldsFullList called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:7679]
+2021-11-21 11:49:29.704 ***** ERROR ***** []    #3 SqlElement->getExtraHiddenFields called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:4755]
+2021-11-21 11:49:29.706 ***** ERROR ***** []    #4 SqlElement->control called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:2334]
+2021-11-21 11:49:29.708 ***** ERROR ***** []    #5 Parameter->control called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:1179]
+2021-11-21 11:49:29.710 ***** ERROR ***** []    #6 SqlElement->saveSqlElement called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:820]
+2021-11-21 11:49:29.712 ***** ERROR ***** []    #7 SqlElement->save called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1481]
+2021-11-21 11:49:29.714 ***** ERROR ***** []    #8 Parameter->storeUserParameter called at [C:\xampp\htdocs\projeqtor\tool\saveDataToSession.php:88]
+2021-11-21 11:49:30.013 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.menu' doesn't exist
+2021-11-21 11:49:30.015 ***** ERROR ***** []    For query : select id as id, name as name from menu where (idle=0 ) order by menu.sortOrder, menu.name
+2021-11-21 11:49:30.017 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:30.020 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlList.php:146]
+2021-11-21 11:49:30.022 ***** ERROR ***** []    #1 SqlList->fetchList called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlList.php:74]
+2021-11-21 11:49:30.023 ***** ERROR ***** []    #2 SqlList->getListNotTranslated called at [C:\xampp\htdocs\projeqtor\model\UserMain.php:419]
+2021-11-21 11:49:30.025 ***** ERROR ***** []    #3 UserMain->getAccessControlRights called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:3094]
+2021-11-21 11:49:30.027 ***** ERROR ***** []    #4 securityGetAccessRight called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:3181]
+2021-11-21 11:49:30.029 ***** ERROR ***** []    #5 securityGetAccessRightYesNo called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:4794]
+2021-11-21 11:49:30.031 ***** ERROR ***** []    #6 SqlElement->control called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:2334]
+2021-11-21 11:49:30.033 ***** ERROR ***** []    #7 Parameter->control called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:1179]
+2021-11-21 11:49:30.035 ***** ERROR ***** []    #8 SqlElement->saveSqlElement called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:820]
+2021-11-21 11:49:30.036 ***** ERROR ***** []    #9 SqlElement->save called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1481]
+2021-11-21 11:49:30.038 ***** ERROR ***** []    #10 Parameter->storeUserParameter called at [C:\xampp\htdocs\projeqtor\tool\saveDataToSession.php:88]
+2021-11-21 11:49:30.290 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.accessscope' doesn't exist
+2021-11-21 11:49:30.293 ***** ERROR ***** []    For query : select id as id, accessCode as name from accessscope where (1=1 ) order by accessscope.sortOrder, accessscope.accessCode
+2021-11-21 11:49:30.294 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:30.296 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlList.php:146]
+2021-11-21 11:49:30.298 ***** ERROR ***** []    #1 SqlList->fetchList called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlList.php:63]
+2021-11-21 11:49:30.300 ***** ERROR ***** []    #2 SqlList->getList called at [C:\xampp\htdocs\projeqtor\model\UserMain.php:426]
+2021-11-21 11:49:30.302 ***** ERROR ***** []    #3 UserMain->getAccessControlRights called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:3094]
+2021-11-21 11:49:30.304 ***** ERROR ***** []    #4 securityGetAccessRight called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:3181]
+2021-11-21 11:49:30.306 ***** ERROR ***** []    #5 securityGetAccessRightYesNo called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:4794]
+2021-11-21 11:49:30.307 ***** ERROR ***** []    #6 SqlElement->control called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:2334]
+2021-11-21 11:49:30.309 ***** ERROR ***** []    #7 Parameter->control called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:1179]
+2021-11-21 11:49:30.311 ***** ERROR ***** []    #8 SqlElement->saveSqlElement called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:820]
+2021-11-21 11:49:30.313 ***** ERROR ***** []    #9 SqlElement->save called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1481]
+2021-11-21 11:49:30.315 ***** ERROR ***** []    #10 Parameter->storeUserParameter called at [C:\xampp\htdocs\projeqtor\tool\saveDataToSession.php:88]
+2021-11-21 11:49:30.512 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.list' doesn't exist
+2021-11-21 11:49:30.514 ***** ERROR ***** []    For query : select id as id, code as name from list where (1=1  and list.list='readWrite') order by list.sortOrder, list.code
+2021-11-21 11:49:30.516 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:30.518 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlList.php:146]
+2021-11-21 11:49:30.520 ***** ERROR ***** []    #1 SqlList->fetchList called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlList.php:63]
+2021-11-21 11:49:30.521 ***** ERROR ***** []    #2 SqlList->getList called at [C:\xampp\htdocs\projeqtor\model\UserMain.php:427]
+2021-11-21 11:49:30.523 ***** ERROR ***** []    #3 UserMain->getAccessControlRights called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:3094]
+2021-11-21 11:49:30.525 ***** ERROR ***** []    #4 securityGetAccessRight called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:3181]
+2021-11-21 11:49:30.527 ***** ERROR ***** []    #5 securityGetAccessRightYesNo called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:4794]
+2021-11-21 11:49:30.529 ***** ERROR ***** []    #6 SqlElement->control called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:2334]
+2021-11-21 11:49:30.531 ***** ERROR ***** []    #7 Parameter->control called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:1179]
+2021-11-21 11:49:30.532 ***** ERROR ***** []    #8 SqlElement->saveSqlElement called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:820]
+2021-11-21 11:49:30.534 ***** ERROR ***** []    #9 SqlElement->save called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1481]
+2021-11-21 11:49:30.536 ***** ERROR ***** []    #10 Parameter->storeUserParameter called at [C:\xampp\htdocs\projeqtor\tool\saveDataToSession.php:88]
+2021-11-21 11:49:30.671 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.accessright' doesn't exist
+2021-11-21 11:49:30.673 ***** ERROR ***** []    For query : select * from accessright where accessright.idProfile is null
+2021-11-21 11:49:30.675 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:30.677 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:30.679 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\UserMain.php:431]
+2021-11-21 11:49:30.681 ***** ERROR ***** []    #2 UserMain->getAccessControlRights called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:3094]
+2021-11-21 11:49:30.683 ***** ERROR ***** []    #3 securityGetAccessRight called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:3181]
+2021-11-21 11:49:30.685 ***** ERROR ***** []    #4 securityGetAccessRightYesNo called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:4794]
+2021-11-21 11:49:30.687 ***** ERROR ***** []    #5 SqlElement->control called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:2334]
+2021-11-21 11:49:30.688 ***** ERROR ***** []    #6 Parameter->control called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:1179]
+2021-11-21 11:49:30.690 ***** ERROR ***** []    #7 SqlElement->saveSqlElement called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:820]
+2021-11-21 11:49:30.692 ***** ERROR ***** []    #8 SqlElement->save called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1481]
+2021-11-21 11:49:30.694 ***** ERROR ***** []    #9 Parameter->storeUserParameter called at [C:\xampp\htdocs\projeqtor\tool\saveDataToSession.php:88]
+2021-11-21 11:49:30.832 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.habilitation' doesn't exist
+2021-11-21 11:49:30.833 ***** ERROR ***** []    For query : select * from habilitation where habilitation.idProfile is null
+2021-11-21 11:49:30.835 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:30.836 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:2821]
+2021-11-21 11:49:30.838 ***** ERROR ***** []    #1 SqlElement->getSqlElementsFromCriteria called at [C:\xampp\htdocs\projeqtor\model\UserMain.php:434]
+2021-11-21 11:49:30.840 ***** ERROR ***** []    #2 UserMain->getAccessControlRights called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:3094]
+2021-11-21 11:49:30.842 ***** ERROR ***** []    #3 securityGetAccessRight called at [C:\xampp\htdocs\projeqtor\tool\projeqtor.php:3181]
+2021-11-21 11:49:30.843 ***** ERROR ***** []    #4 securityGetAccessRightYesNo called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:4794]
+2021-11-21 11:49:30.845 ***** ERROR ***** []    #5 SqlElement->control called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:2334]
+2021-11-21 11:49:30.847 ***** ERROR ***** []    #6 Parameter->control called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:1179]
+2021-11-21 11:49:30.849 ***** ERROR ***** []    #7 SqlElement->saveSqlElement called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:820]
+2021-11-21 11:49:30.851 ***** ERROR ***** []    #8 SqlElement->save called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1481]
+2021-11-21 11:49:30.853 ***** ERROR ***** []    #9 Parameter->storeUserParameter called at [C:\xampp\htdocs\projeqtor\tool\saveDataToSession.php:88]
+2021-11-21 11:49:31.075 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.parameter' doesn't exist
+2021-11-21 11:49:31.077 ***** ERROR ***** []    For query : insert into parameter ( parameterCode , parameterValue ) values ('theme', 'ProjeQtOrFlatGrey ProjeQtOrNewGui')
+2021-11-21 11:49:31.079 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:31.081 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:1481]
+2021-11-21 11:49:31.083 ***** ERROR ***** []    #1 SqlElement->insertSqlElement called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:1243]
+2021-11-21 11:49:31.084 ***** ERROR ***** []    #2 SqlElement->saveSqlElement called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:820]
+2021-11-21 11:49:31.086 ***** ERROR ***** []    #3 SqlElement->save called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1481]
+2021-11-21 11:49:31.088 ***** ERROR ***** []    #4 Parameter->storeUserParameter called at [C:\xampp\htdocs\projeqtor\tool\saveDataToSession.php:88]
+2021-11-21 11:49:31.234 ***** ERROR ***** [] Exception-[42S02] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'projeqtor.indicatorable' doesn't exist
+2021-11-21 11:49:31.236 ***** ERROR ***** []    For query : select id as id, name as name from indicatorable where (1=1 ) order by indicatorable.name
+2021-11-21 11:49:31.238 ***** ERROR ***** []    Strack trace :
+2021-11-21 11:49:31.240 ***** ERROR ***** []    #0 Sql->query called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlList.php:146]
+2021-11-21 11:49:31.242 ***** ERROR ***** []    #1 SqlList->fetchList called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlList.php:63]
+2021-11-21 11:49:31.244 ***** ERROR ***** []    #2 SqlList->getList called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlList.php:392]
+2021-11-21 11:49:31.246 ***** ERROR ***** []    #3 SqlList->getIdFromName called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlList.php:399]
+2021-11-21 11:49:31.247 ***** ERROR ***** []    #4 SqlList->getIdFromTranslatableName called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:1283]
+2021-11-21 11:49:31.249 ***** ERROR ***** []    #5 SqlElement->saveSqlElement called at [C:\xampp\htdocs\projeqtor\model\persistence\SqlElement.php:820]
+2021-11-21 11:49:31.251 ***** ERROR ***** []    #6 SqlElement->save called at [C:\xampp\htdocs\projeqtor\model\Parameter.php:1481]
+2021-11-21 11:49:31.253 ***** ERROR ***** []    #7 Parameter->storeUserParameter called at [C:\xampp\htdocs\projeqtor\tool\saveDataToSession.php:88]
