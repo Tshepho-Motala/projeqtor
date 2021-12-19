@@ -3,11 +3,11 @@
 // Automatically generated parameter file
 // =======================================================================================
 $paramDbType = 'mysql';
-$paramDbHost = '127.0.0.1';
+$paramDbHost =  getenv("PROJEQTORDB_SERVICE_HOST");  
 $paramDbPort = '3306';
-$paramDbUser = 'root';
-$paramDbPassword = '';
-$paramDbName = 'projeqtor';
+$paramDbUser = getenv("projeqtor_dbuser");
+$paramDbPassword = getenv("projeqtor_dbpassword");
+$paramDbName = 'projeqtordb';
 $paramDbDisplayName = 'ProjeQtOr';
 $paramDbPrefix = '';
 $SslKey = '';
